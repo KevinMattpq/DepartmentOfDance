@@ -33,3 +33,11 @@
     background-position: center;
     background-repeat: no-repeat; 
 }
+
+/* ABOUT US PAGE */
+.aboutUsBanner{
+    height: 80vh; 
+    background: url('./img/aboutUsBanner.jpg') no-repeat center center;
+    background-size: cover;
+    justify-content: center;
+}
