@@ -1,0 +1,25 @@
+.mainBanner{
+    height: 80vh; 
+    background: url('./img/mainBanner.jpg') no-repeat center center;
+    background-size: cover;
+    justify-content: center;
+}
+.navbar-brand{
+    color: white
+}
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    color: #0047BA;
+}
+.titleMain{
+    color: white;
+}
+
+#eventsImage{
+    height: 300px;
+}
+.navbar-toggler{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath fill='none' stroke='white' stroke-width='3' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
