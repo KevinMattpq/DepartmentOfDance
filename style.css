@@ -1,5 +1,5 @@
 .mainBanner{
-    height: 80vh; 
+    height: 100vh; 
     background: url('./img/mainBanner.jpg') no-repeat center center;
     background-size: cover;
     justify-content: center;
@@ -32,6 +32,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
+}
+#rank img{
+    text-align: center;
 }
 
 /* ABOUT US PAGE */

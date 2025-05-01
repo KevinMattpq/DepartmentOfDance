@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BYU Department of Dance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg bg-dark">
+          <div class="container">
+              <a class="navbar-brand" href="#"><img src="/img/byu-logo-white-small.svg" alt=""></a>
+              <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon custom"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                      <li class="nav-item"><a class="nav-link" href="/aboutUs.html">About Us</a></li>
+                      <li class="nav-item"><a class="nav-link" href="/contactUs.html">Contact Us</a></li>
+                      <li class="nav-item"><a class="nav-link disabled" aria-disabled="true">Disabled</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </div>
+  <!-- SUMMARY -->
+  <main class="container pt-4">
+    <div class="row">
+        <div class="col-md-4 d-flex flex-column justify-content-center" >
+            <img src="/img/contactUs.jpg" class="rounded" style="width: 300px;">
+        </div>
+        <div class="col-md-8 p-5">
+            <h3>Interested in Joining Our Team? </h3>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">First Name</label>
+                  <input type="text" class="form-control rounded-pill" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Last Name</label>
+                  <input type="text" class="form-control rounded-pill" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control rounded-pill" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control rounded-pill">
+                    <div  class="form-text">We'll never share your phone number with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="messageTextArea" class="form-label">Message</label>
+                    <textarea class="form-control" id="messageTextArea" rows="4" placeholder="Write your message here"></textarea>
+                  </div>
+
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Notifications</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+              </form>
+    </div>
+  </main>
+    <!-- FOOTER SECTION -->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">&copy; 2025 Company, Inc</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" aria-label="Bootstrap">
+          <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"/></svg>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="/aboutUs.html" class="nav-link px-2 text-body-secondary">About Us</a></li>
+          <li class="nav-item"><a href="/contactUs.html" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
+
+        </ul>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
