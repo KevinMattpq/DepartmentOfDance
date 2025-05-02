@@ -33,9 +33,28 @@
     background-position: center;
     background-repeat: no-repeat; 
 }
-#rank img{
+#ranking img {
     text-align: center;
 }
+#sectionVideo {
+    position: relative;
+    width: 100%;
+    height: 80vh; 
+    overflow: hidden; 
+  } 
+  #banner-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+
+  #professors .card{
+    margin-bottom: 30px;
+  }
+
 
 /* ABOUT US PAGE */
 .aboutUsBanner{
@@ -45,24 +64,6 @@
     justify-content: center;
 }
 
-#sectionVideo {
-    position: relative;
-    width: 100%;
-    height: 80vh; 
-    overflow: hidden; 
-  }
-  #professors .card{
-    margin-bottom: 30px;
-  }
-  
-  #banner-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
-  }
 
   @media (max-width: 600px) {
     /* Styles for small screens like phones */
