@@ -51,6 +51,9 @@
     height: 80vh; 
     overflow: hidden; 
   }
+  #professors .card{
+    margin-bottom: 30px;
+  }
   
   #banner-video {
     position: absolute;
